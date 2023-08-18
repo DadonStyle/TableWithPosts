@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
+const PostWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
-  background-color: rgba(255, 255, 255, 0.2);
+  gap: 2rem;
+  padding: 0 2rem;
+  flex-direction: column;
 `;
 
 const S = {
-  Wrapper,
+  PostWrapper,
 };
 
 export default S;

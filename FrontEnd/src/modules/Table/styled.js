@@ -8,6 +8,7 @@ const TableContainer = styled.div`
   width: 100%;
   max-height: 400px;
   height: 100%;
+  gap: 2rem;
 `;
 
 const Table = styled.table`
@@ -34,6 +35,10 @@ const TableHeaderAddress = styled.th`
 
 const TableRow = styled.tr`
   border: 1px solid black;
+  :hover {
+    background-color: gold;
+    cursor: pointer;
+  }
 `;
 
 const TableCell = styled.td`

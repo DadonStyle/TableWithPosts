@@ -1,4 +1,5 @@
 export class CreatePostDto {
-  name: string;
-  public: boolean;
+  userId: number;
+  title: string;
+  body: string;
 }

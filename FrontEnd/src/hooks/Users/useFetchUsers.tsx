@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { User } from '../interfaces/interface';
+import { User } from '../../interfaces/interface';
 import axios from 'axios';
 
 const useFetchUsers = () => {

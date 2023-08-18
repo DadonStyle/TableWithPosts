@@ -9,9 +9,13 @@ export interface User {
   name: string;
   email: string;
   address: Address;
+  id: number;
 }
 
 export interface Post {
-  fullName: string;
+  userId: number;
+  id: number;
+  title: string;
+  body: string;
   //CHANGE
 }
